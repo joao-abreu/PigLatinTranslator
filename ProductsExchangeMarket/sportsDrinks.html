@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script type="text/javascript" src="js/libs/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/libs/knockout-min3_4_1.js"></script>
+
+		<script type="text/javascript" src="js/global.js"></script>
+		<script type="text/javascript" src="js/sportsDrinks.js"></script>
+	</head>
+	<body class="background">
+		<div style="margin-top: 14%">
+			<div style="color: white; margin-left: 6%; float: left;">
+				<p style="font-size: 11px;">Próxima Ronda <span style="font-size: 40px" id="countdown"></span></p>
+			</div>
+
+			<div style="color: white; float: right; padding-right: 60px; */">
+				<p style="font-size: 11px;">Sorteio Nº <span style="font-size: 40px" data-bind="text: sorteios"></span></p>
+			</div>
+
+			<!--<table class="rwd-table" cellspacing="3">-->
+			<table class="responstable" style="width: 100%;">
+				<thead>
+					<!--<tr class="tableHeader">-->
+					<tr>
+						<th style="text-align: center">Produto</th>
+						<th style="text-align: center">PVP</th>
+						<th style="text-align: center">Mínimo Atingido</th>
+						<th style="text-align: center">Máximo Atingido</th>
+						<th style="text-align: center">Preço Actual</th></tr>
+				</thead>
+				<tbody data-bind="foreach: products">
+				<tr data-bind="attr:{id: 'line_'+id}">
+					<td style="text-align: center" data-bind="text: name" class="nameCell"></td>
+					<td style="text-align: center" data-bind="text: pvp" class="pvpCell"></td>
+					<td style="text-align: center" data-bind="text: minPrice" class="minPriceCell"></td>
+					<td style="text-align: center" data-bind="text: maxPrice" class="maxPriceCell"></td>
+					<td style="text-align: center" data-bind="text: price" class="priceCell"></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<div style="float: left">
+			<p style="font-size: 9px; color: white;">Copyright © 2017   Sports&Friends</p>
+			<p style="font-size: 9px; color: white;">Designed by João Abreu</p>
+		</div>
+		<div style="float: left; margin-left: 25%;">
+			<p style="font-size: 14px; color: white;">Termos & Condições</p>
+			<p style="font-size: 14px; color: white; margin-top: -8px;">Os preços promocionais são válidos apenas para serviço de balcão e mediante pronto pagamento.</p>
+		</div>
+	</body>
+</html>
