@@ -1,13 +1,18 @@
-O Projecto _VentureOakExerciseRest é baseado na sessão. 
-	url: 	http://localhost:3000/home
-	app: 	./server.js
-	tests: 	./tests/test.js
+Uses html, css, JavaScript, knockoutJs and NodeJS;
+
+Translates a text to Pig Latin.
+Requires registration.
+Token Based. 
 
 
-O Projecto _VentureOakExerciseRestfull é baseado no token. 
-	url: http://localhost:3000/home
-	app: 	./server.js
-	tests: 	./tests/test.js
+
+
+url: 	http://localhost:3000/home
+app: 	./server.js
+tests: 	./tests/test.js
+
+
+
 
 
 Dummy account login:
