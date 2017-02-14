@@ -1,0 +1,11 @@
+<h1>Pig Latin Translator</h1><br>
+<div>Hello {{name}}, </div>
+<br/>
+<div>Thank welcome to Pig Latin Translator.</div>
+<br/>
+<div>Click<a href="{{confirmationLink}}"> here </a> to activate your account.</div>
+<br/>
+<br/>
+<br/>
+<div>Best regards, João Abreu</div>
+<div style="color: gray;">+351 931 927 011</div>
